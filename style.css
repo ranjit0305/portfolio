@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.bg-black-custom {
+    background-color: black !important;
+}
+.Rectangle1{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    background: black;
+    margin-top: 0px;
+    display: flex;
+    padding: 0%;
+    background-size: cover;
+    background-position: center;
+}
+.Rectangle2{
+    width: 100%;
+     height: 20px;
+     left: 457px;
+     top: 33.14px;
+     position: relative;
+      background: #F8F8F8"
+}
+ul{
+    width: 100%;
+    margin: 0 0 0 0 px;
+    list-style: none;
+    text-decoration:none;
+    color:white;
+    text-align:left;
+
+}
+ /* Custom CSS for positioning navbar */
+ .navbar-custom {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: auto;
+    background-color: black;
+    width: auto;
+}
+
+.Ranjit{
+    margin-left: -1070px;
+    margin-top: 0px;
+    font-size: 38px;
+    font-style:italic;
+    font-family:'Times New Roman', Times, serif;
+    color: #FFF;
+    position: absolute;
+}
+.TN{
+    margin-left: -967px;
+    margin-top: 0px;
+    font-size: 38px;
+    font-style:italic;
+    font-family:'Times New Roman', Times, serif;
+    color: red;
+    position: absolute;
+}
+.enter{
+    margin-top: -100px;
+}
+.picture{
+    width:500px;
+    height: 500px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    display: flex;
+    margin-top: 200px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+.p{
+    width:100%;
+}
+mark.red{
+    color: red;
+    background: none;
+}
+.hi{
+    font-size:42px;
+    color: #FFF;
+    margin-left: 0px;
+    margin-top: 350px;
+    width: 500px;
+    font-weight: 700;
+    position: relative;
+}
