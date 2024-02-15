@@ -355,6 +355,204 @@ mark.red{
     margin-left: 550px;
     margin-top: 20px;
 }
+@media (max-width:1024px) {
+    .Ranjit {
+        margin-top: 0px;
+        margin-left: -650px;
+    }
+    .enter {
+        height: 750px;
+    }
+    .TN {
+        margin-top: 5px;
+        margin-left: -550px;
+    }
+    .Frame1 {
+        height: 0px;
+    }
+    .Frame2 {
+        margin-top: 1400px;
+        width: 100%;
+        max-width: 100%;
+        height: 1500px;
+        position: relative;
+    }
+    .skills {
+        margin-left: 450px;
+        margin-right: auto;
+        max-width: 400px;
+        width: 80%;
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+    .scroll {
+        margin-top: 150px;
+        max-width: 400px;
+        width: 95%;
+        height: 600px;
+        margin-left: 250px;
+        margin-right: auto;
+    }
+    .pro {
+        margin-top: 490px;
+        font-size: 32px;
+        margin-left: 25px;
+        color: red;
+        font-weight: 700;
+        width: 100%;
+        max-width: 400px;
+        position: absolute;
+    }
+    .slack {
+        margin-top: 550px;
+        font-size: 28px;
+        margin-left: 20px;
+        color: rgb(77, 77, 189);
+        font-weight: 700;
+        width: 100%;
+        max-width: 400px;
+        position: absolute;
+    }
+    .pro-text1 {
+        display: none;
+    }
+    .pro-text2 {
+        margin-top: 590px;
+        font-size: 24px;
+        margin-left: 20px;
+        color: #FFF;
+        font-weight: 400;
+        max-width: 70%;
+        position: absolute;
+        width: 100%;
+    }
+    .logo {
+        width: 50%;
+        margin-top: 600px;
+        margin-left: 150px;
+    }
+    .dlogo {
+        width: 30%;
+        margin-top: 150px;
+        margin-left: 70px;
+        position: absolute;
+    }
+    .dark-text {
+        margin-top: 160px;
+        font-size: 24px;
+        margin-left: 20px;
+        color: #FFF;
+        font-weight: 400;
+        width: 80%;
+        max-width: 500px;
+        position: absolute;
+        line-height: 2;
+    }
+    .c {
+        margin-top: 50px;
+        font-size: 32px;
+        margin-left: 450px;
+        color: red;
+        font-weight: 700;
+        width: 100%;
+        max-width: 400px;
+        position: absolute;
+    }
+    .footer {
+        width: 100%;
+        height: 1500px;
+        position: relative;
+        margin-top: 50px;
+        overflow: hidden;
+    }
+    .pass {
+        font-size: 30px;
+        font-weight: 500;
+        margin-top: 50px;
+        margin-left: 20px;
+        width: 80%;
+        max-width: 400px;
+    }
+    .submit {
+        margin-left: 150px;
+        margin-top: 20px;
+    }
+    .Dark {
+        width: 90%;
+    }
+    .work {
+        font-size: 50px;
+        width: 80%;
+        font-weight: 700;
+        margin-top: 150px;
+        margin-left: 20px;
+        letter-spacing: 2;
+    }
+    .pass {
+        font-size: 30px;
+        font-weight: 500;
+        margin-top: 50px;
+        margin-left: 20px;
+        width: 80%;
+        width: 60%;
+    }
+    .chat {
+        font-size: 50px;
+        font-weight: 700;
+        margin-top: 50px;
+        margin-left: 20px;
+        letter-spacing: 2;
+        width: 80%;
+    }
+    .touch {
+        font-size: 25px;
+        font-weight: 100;
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 700px;
+    }
+    .c1 {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 3px solid black;
+        margin-top: -50px;
+        position: absolute;
+        margin-left: 185px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .c2 {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 3px solid black;
+        margin-top: -50px;
+        position: absolute;
+        margin-left: 225px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .end {
+        margin-top: 150px;
+        margin-left: 20px;
+        width: 80%;
+    }
+    .email {
+        margin-left: 0px;
+        margin-top: 30px;
+        width: 80%;
+    }
+    .Comments {
+        margin-left: 20px;
+        margin-top: 30px;
+        width: 80%;
+    }
+}
+
 @media (max-width: 767px) {
     .Ranjit{
         margin-top: 0px;
@@ -450,203 +648,6 @@ mark.red{
     margin-top: 50px;
     font-size: 32px;
     margin-left: 10px;
-    color: red;
-    font-weight: 700;
-    width: 100%;
-    max-width: 400px;
-    position:absolute;
-}
-.footer{
-    width: 100%;
-    height: 1500px;
-    position: relative;
-    margin-top: 50px;overflow: hidden;
-}
-.pass{
-    font-size: 30px;
-    font-weight: 500;
-    margin-top: 50px;
-    margin-left: 50px;
-    width:80%;
-    max-width: 400px;
-}
-.submit{
-    margin-left: 150px;
-    margin-top: 20px;
-}
-.Dark{
-    width: 90%;
-}
-.work{
-    font-size: 50px;
-    width: 80%;
-    font-weight: 700;
-    margin-top: 150px;
-    margin-left: 20px;
-    letter-spacing: 2;
-}
-.pass{
-    font-size: 30px;
-    font-weight: 500;
-    margin-top: 50px;
-    margin-left: 20px;
-    width:80%;
-    width: 60%;
-}
-.chat{
-    font-size: 50px;
-    font-weight: 700;
-    margin-top: 50px;
-    margin-left: 20px;
-    letter-spacing: 2;
-    width: 80%;
-}
-.touch{
-    font-size: 25px;
-    font-weight: 100;
-    margin-top: 20px;
-    margin-left: 20px;
-    width:700px;
-}
-.c1 {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    border: 3px solid black; 
-    margin-top: -50px;
-    position: absolute;
-    margin-left: 185px;
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-}
-.c2 {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    border: 3px solid black; 
-    margin-top: -50px;
-    position: absolute;
-    margin-left: 225px;
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-}
-.end{
-    margin-top: 150px;
-    margin-left: 20px;
-    width: 80%;
-}
-.email{
-    margin-left: 0px;
-    margin-top: 30px;
-    width: 80%;
-}
-.Comments{
-    margin-left: 20px;
-    margin-top: 30px;
-    width: 80%;
-}
-}
-@media (max-width:1024px) {
-    .Ranjit{
-        margin-top: 0px;
-        margin-left: -650px;
-    }
-    .enter{
-        height: 750px;
-    }
-    .TN{
-        margin-top: 5px;
-        margin-left: -550px;
-    }
-    .Frame1
-    {
-        height: 0px;
-    }
-    .Frame2 {
-        margin-top: 1400px; 
-        width: 100%;
-        max-width: 100%;
-        height: 1500px;
-        position: relative;
-    }
-    .skills {
-        margin-left: 450px;
-        margin-right: auto;
-        max-width: 400px;
-        width: 80%; 
-        position: absolute;
-        left: 0;
-        right: 0; 
-    }
-    .scroll {
-        margin-top: 150px;
-        max-width: 400px;
-        width: 95%; 
-        height: 600px;
-        margin-left: 250px;
-        margin-right: auto; 
-    }
-.pro{
-    margin-top: 490px;
-    font-size: 32px;
-    margin-left: 25px;
-    color: red;
-    font-weight: 700;
-    width: 100%;
-    max-width: 400px;
-    position:absolute;
-}
-.slack{
-    margin-top: 550px;
-    font-size: 28px;
-    margin-left: 20px;
-    color:rgb(77, 77, 189);
-    font-weight: 700;
-    width: 100%;
-    max-width: 400px;
-    position:absolute;
-}
-.pro-text1{
-    display: none;
-}
-.pro-text2{
-    margin-top: 590px;
-    font-size: 24px;
-    margin-left: 20px;
-    color:#FFF;
-    font-weight: 400;
-    max-width: 70%;
-    position:absolute;
-    width: 100%;
-}
-.logo{
-    width: 50%;
-    margin-top: 600px;
-    margin-left: 150px;
-}
-.dlogo{
-    width: 30%;
-    margin-top: 150px;
-    margin-left: 70px;
-    position: absolute;
-}
-.dark-text{
-    margin-top: 160px;
-    font-size: 24px;
-    margin-left: 20px;
-    color:#FFF;
-    font-weight: 400;
-    width: 80%;
-    max-width: 500px;
-    position:absolute;
-    line-height: 2;
-}
-.c{
-    margin-top: 50px;
-    font-size: 32px;
-    margin-left: 450px;
     color: red;
     font-weight: 700;
     width: 100%;
