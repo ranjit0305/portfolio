@@ -25,7 +25,6 @@ ul{
     text-align:left;
 
 }
- /* Custom CSS for positioning navbar */
  .navbar-custom {
     position: absolute;
     top: 0;
@@ -58,16 +57,16 @@ ul{
     height:780px;
 }
 .picture{
-width: 100%; /* Ensures container fills its parent */
-    max-width: 500px; /* Limit maximum width for larger screens */
+width: 100%;
+    max-width: 500px; 
     margin: 0 auto;
     margin-top: 100px;
 }
 .p{
-   width: 100%; /* Ensure the image fills its container */
-    height: auto; /* Maintain aspect ratio */
-    max-width: 100%; /* Prevent image overflow */
-    border-radius: 50%; /* Makes the image circular */
+   width: 100%; 
+    height: auto; 
+    max-width: 100%; 
+    border-radius: 50%; 
     display: flex;
     aspect-ratio: 1 / 1;
 }
@@ -87,7 +86,8 @@ mark.red{
 }
 .Frame1{
     margin-top: 0px;
-    height: 500px;position: relative;
+    height: 500px;
+    position: relative;
 }
 .about{
     margin-top: 50px;
@@ -146,7 +146,7 @@ mark.red{
 }
 .text-education1{
     margin-top: -35px;
-    margin-left: 0px;
+    margin-left: 15px;
     font-size: 28px;
     color:black;
     font-weight: 500;
@@ -166,7 +166,7 @@ mark.red{
 }
 .text-education2{
     margin-top: -30px;
-    margin-left: 0px;
+    margin-left: 15px;
     font-size: 28px;
     color:black;
     font-weight: 500;
@@ -218,8 +218,19 @@ mark.red{
     max-width: 500px;
     position:absolute;
 }
-.pro-text{
+.pro-text1{
     margin-top: 940px;
+    font-size: 24px;
+    margin-left: 20px;
+    color:#FFF;
+    font-weight: 400;
+    width: 100%;
+    max-width: 600px;
+    position:absolute;
+    line-height: 2;
+}
+.pro-text2{
+    margin-top: 990px;
     font-size: 24px;
     margin-left: 20px;
     color:#FFF;
@@ -257,8 +268,8 @@ mark.red{
 }
 .dlogo{
     width: 60%;
-    margin-top: 0px;
-    margin-left: 70px;
+    margin-top:40px;
+    margin-left: 100px;
 }
 .footer{
     width: 100%;
@@ -308,25 +319,25 @@ mark.red{
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    border: 3px solid black; /* Specify border style */
+    border: 3px solid black; 
     margin-top: -50px;
     position: absolute;
     margin-left: 220px;
-    display: flex; /* Add flex display */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
 .c2 {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    border: 3px solid black; /* Specify border style */
+    border: 3px solid black; 
     margin-top: -50px;
     position: absolute;
     margin-left: 260px;
-    display: flex; /* Add flex display */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
 .end{
     margin-top: 150px;
@@ -345,28 +356,392 @@ mark.red{
     margin-top: 20px;
 }
 @media (max-width: 767px) {
+    .Ranjit{
+        margin-top: 0px;
+        margin-left: -320px;
+    }
+    .enter{
+        height: 950px;
+    }
+    .TN{
+        margin-top: 5px;
+        margin-left: -220px;
+    }
     .Frame2 {
-        margin-top: 1600px; /* Adjust this value as needed */
+        margin-top: 1600px; 
+        width: 100%;
+        max-width: 100%;
+        height: 2100px;
+        position: relative;
+    }
+    .skills {
+        margin-left: 75px;
+        margin-right: auto;
+        max-width: 400px;
+        width: 80%; 
+        position: absolute;
+        left: 0;
+        right: 0; 
+    }
+    .scroll {
+        margin-top: 150px;
+        max-width: 400px;
+        width: 85%; 
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+.pro{
+    margin-top: 490px;
+    font-size: 32px;
+    margin-left: 25px;
+    color: red;
+    font-weight: 700;
+    width: 100%;
+    max-width: 400px;
+    position:absolute;
+}
+.slack{
+    margin-top: 550px;
+    font-size: 28px;
+    margin-left: 20px;
+    color:rgb(77, 77, 189);
+    font-weight: 700;
+    width: 100%;
+    max-width: 400px;
+    position:absolute;
+}
+.pro-text1{
+    display: none;
+}
+.pro-text2{
+    margin-top: 590px;
+    font-size: 24px;
+    margin-left: 20px;
+    color:#FFF;
+    font-weight: 400;
+    max-width: 70%;
+    position:absolute;
+    width: 100%;
+}
+.logo{
+    width: 50%;
+    margin-top: 1100px;
+    margin-left: 50px;
+}
+.dlogo{
+    width: 50%;
+    margin-top: 550px;
+    margin-left: 70px;
+    position: absolute;
+}
+.dark-text{
+    margin-top: 160px;
+    font-size: 24px;
+    margin-left: 20px;
+    color:#FFF;
+    font-weight: 400;
+    width: 80%;
+    max-width: 400px;
+    position:absolute;
+    line-height: 2;
+}
+.c{
+    margin-top: 50px;
+    font-size: 32px;
+    margin-left: 10px;
+    color: red;
+    font-weight: 700;
+    width: 100%;
+    max-width: 400px;
+    position:absolute;
+}
+.footer{
+    width: 100%;
+    height: 1500px;
+    position: relative;
+    margin-top: 50px;overflow: hidden;
+}
+.pass{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-left: 50px;
+    width:80%;
+    max-width: 400px;
+}
+.submit{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.Dark{
+    width: 90%;
+}
+.work{
+    font-size: 50px;
+    width: 80%;
+    font-weight: 700;
+    margin-top: 150px;
+    margin-left: 20px;
+    letter-spacing: 2;
+}
+.pass{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-left: 20px;
+    width:80%;
+    width: 60%;
+}
+.chat{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-left: 20px;
+    letter-spacing: 2;
+    width: 80%;
+}
+.touch{
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-left: 20px;
+    width:700px;
+}
+.c1 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid black; 
+    margin-top: -50px;
+    position: absolute;
+    margin-left: 185px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+.c2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid black; 
+    margin-top: -50px;
+    position: absolute;
+    margin-left: 225px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+.end{
+    margin-top: 150px;
+    margin-left: 20px;
+    width: 80%;
+}
+.email{
+    margin-left: 0px;
+    margin-top: 30px;
+    width: 80%;
+}
+.Comments{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 80%;
+}
+}
+@media (max-width:1024px) {
+    .Ranjit{
+        margin-top: 0px;
+        margin-left: -650px;
+    }
+    .enter{
+        height: 750px;
+    }
+    .TN{
+        margin-top: 5px;
+        margin-left: -550px;
+    }
+    .Frame1
+    {
+        height: 0px;
+    }
+    .Frame2 {
+        margin-top: 1400px; 
         width: 100%;
         max-width: 100%;
         height: 1500px;
         position: relative;
     }
     .skills {
-        margin-left: 75px;
-        margin-right: auto; /* Center the skills section */
-        max-width: 500px;
-        width: 80%; /* Adjust as needed */
+        margin-left: 450px;
+        margin-right: auto;
+        max-width: 400px;
+        width: 80%; 
         position: absolute;
         left: 0;
-        right: 0; /* Center the skills section */
+        right: 0; 
     }
     .scroll {
         margin-top: 150px;
-        max-width: 100%;
-        width: 85%; /* Adjust as needed */
-        height: 500px;
-        margin-left: auto;
-        margin-right: auto; /* Center the scroll section */
+        max-width: 400px;
+        width: 95%; 
+        height: 600px;
+        margin-left: 250px;
+        margin-right: auto; 
     }
+.pro{
+    margin-top: 490px;
+    font-size: 32px;
+    margin-left: 25px;
+    color: red;
+    font-weight: 700;
+    width: 100%;
+    max-width: 400px;
+    position:absolute;
+}
+.slack{
+    margin-top: 550px;
+    font-size: 28px;
+    margin-left: 20px;
+    color:rgb(77, 77, 189);
+    font-weight: 700;
+    width: 100%;
+    max-width: 400px;
+    position:absolute;
+}
+.pro-text1{
+    display: none;
+}
+.pro-text2{
+    margin-top: 590px;
+    font-size: 24px;
+    margin-left: 20px;
+    color:#FFF;
+    font-weight: 400;
+    max-width: 70%;
+    position:absolute;
+    width: 100%;
+}
+.logo{
+    width: 50%;
+    margin-top: 600px;
+    margin-left: 150px;
+}
+.dlogo{
+    width: 30%;
+    margin-top: 150px;
+    margin-left: 70px;
+    position: absolute;
+}
+.dark-text{
+    margin-top: 160px;
+    font-size: 24px;
+    margin-left: 20px;
+    color:#FFF;
+    font-weight: 400;
+    width: 80%;
+    max-width: 500px;
+    position:absolute;
+    line-height: 2;
+}
+.c{
+    margin-top: 50px;
+    font-size: 32px;
+    margin-left: 450px;
+    color: red;
+    font-weight: 700;
+    width: 100%;
+    max-width: 400px;
+    position:absolute;
+}
+.footer{
+    width: 100%;
+    height: 1500px;
+    position: relative;
+    margin-top: 50px;overflow: hidden;
+}
+.pass{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-left: 50px;
+    width:80%;
+    max-width: 400px;
+}
+.submit{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.Dark{
+    width: 90%;
+}
+.work{
+    font-size: 50px;
+    width: 80%;
+    font-weight: 700;
+    margin-top: 150px;
+    margin-left: 20px;
+    letter-spacing: 2;
+}
+.pass{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-left: 20px;
+    width:80%;
+    width: 60%;
+}
+.chat{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-left: 20px;
+    letter-spacing: 2;
+    width: 80%;
+}
+.touch{
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-left: 20px;
+    width:700px;
+}
+.c1 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid black; 
+    margin-top: -50px;
+    position: absolute;
+    margin-left: 185px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+.c2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid black; 
+    margin-top: -50px;
+    position: absolute;
+    margin-left: 225px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+.end{
+    margin-top: 150px;
+    margin-left: 20px;
+    width: 80%;
+}
+.email{
+    margin-left: 0px;
+    margin-top: 30px;
+    width: 80%;
+}
+.Comments{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 80%;
+}
 }

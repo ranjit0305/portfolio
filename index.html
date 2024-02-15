@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <style>
-        /* Custom CSS for positioning navbar */
         .navbar-custom {
             position: absolute;
             top: 0;
@@ -31,16 +30,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item1">
-                            <a class="nav-link" href="#" style="color: white;">ABOUT</a>
+                            <a class="nav-link" href="#about" style="color: white;">ABOUT</a>
                         </li>
                         <li class="nav-item2">
-                            <a class="nav-link" href="#" style="color: white;">SKILLS</a>
+                            <a class="nav-link" href="#skill" style="color: white;">SKILLS</a>
                         </li>
                         <li class="nav-item3">
-                            <a class="nav-link" href="#" style="color: white;">PROJECTS</a>
+                            <a class="nav-link" href="#project" style="color: white;">PROJECTS</a>
                         </li>
                         <li class="nav-item4">
-                            <a class="nav-link" href="#" style="color: white;">CONTACT</a>
+                            <a class="nav-link" href="#contact" style="color: white;">CONTACT</a>
                         </li>
                     </ul>
                 </div>
@@ -64,7 +63,7 @@
             </div>
         </div>        
     </section>
-    <section class="Frame1" style="background-color: #fff;">
+    <section id="about" class="Frame1" style="background-color: #fff;">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-sm-6 col-md-6 col-lg-6">
@@ -94,12 +93,12 @@
                     <p class="education">
                         EDUCATION
                     </p>
-                    <p class="y2022">2022-current year</p><br>
+                    <p class="y2022">&#8226; 2022-current year</p><br>
                     <p class="text-education1">
                     Coimbatore Institute Of Technology<br>
                     Bachelor of Technology in Information Technology.<br>  
                 </p>
-                <p class="y2020">2020-2022</p><br>
+                <p class="y2020">&#8226; 2020-2022</p><br>
                 <p class="text-education2">
                     Bharathi Matriculation Higher Secondary School<br>
                     I completed my higher secondary studies with a 98% grade.<br>  
@@ -108,7 +107,7 @@
             </div>
         </div>
     </section>
-    <section class="Frame2" style="background-color:black;">
+    <section id="skill" class="Frame2" style="background-color:black;">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 ">
@@ -134,34 +133,33 @@
                       </div>
             </div>  
         </div>
-        <p class="pro">
+        <p id="project" class="pro">
             PROJECTS
         </p>
         <div class="container">
             <div class="row">
-                <div class="col-6 col-sm-6 col-md-6 col-lg-6 ">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6 ">
                     
                     <p class="slack">
                         &#8226;  SLACK
                     </p>
-                    <p class="pro-text">
+                    <p class="pro-text1">
                         Git repository link:https://github.com/ranjit0305/Slack<br>
+                    </p>
+                    <p class="pro-text2">
                         &#8226; Designed a fully responsive and user centric front end.<br>
                         &#8226;   Implemented CSS for styling.<br>
                         &#8226;   Enhanced user interaction with JavaScript.<br>
                     </p>
                 </div>
-                <div class="col-6 col-sm-6 col-md-6 col-lg-6 ">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6 ">
                     <img class="logo" src="images/slack-logo-icon.png">
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-6 col-sm-6 col-md-6 col-lg-6 ">
-                    <img class="dlogo" src="images/dark.png">
-                </div>
-                <div class="col-6 col-sm-6 col-md-6 col-lg-6 ">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6 ">
                     
                     <p class="Dark">
                         &#8226; DARK PATTERN DETECTION
@@ -171,16 +169,19 @@
                         &#8226;   Involved machine learning models,flask and python<br>
                     </p>
                 </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6 ">
+                    <img class="dlogo" src="images/dark.png">
+                </div>
             </div>
         </div>
     </section>
-    <section class="footer" style="background-color: #fff;">
+    <section id="contact" class="footer" style="background-color: #fff;">
         <p class="c">
             CONTACT
         </p>
         <div class="container">
             <div class="row">
-                <div class="col-6 col-sm-6 col-md-6 col-lg-6 ">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6 ">
                     <p class="work">
                         Let's Work<br>
                         Together
@@ -194,14 +195,20 @@
                     <p class="touch"> 
                         Get in touch @ 
                     </p>
-                    <div class="c1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="currentColor" d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32M349.3 793.7H230.6V411.9h118.7zm-59.3-434a68.8 68.8 0 1 1 68.8-68.8c-.1 38-30.9 68.8-68.8 68.8m503.7 434H675.1V608c0-44.3-.8-101.2-61.7-101.2c-61.7 0-71.2 48.2-71.2 98v188.9H423.7V411.9h113.8v52.2h1.6c15.8-30 54.5-61.7 112.3-61.7c120.2 0 142.3 79.1 142.3 181.9z"/></svg>
-                    </div>
-                    <div class="c2">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33c.85 0 1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg>
-                    </div>
+                    <a href="https://www.linkedin.com/in/ranjit-t-n-a50aab26a/" class="c1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+                            <path fill="currentColor" d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32M349.3 793.7H230.6V411.9h118.7zm-59.3-434a68.8 68.8 0 1 1 68.8-68.8c-.1 38-30.9 68.8-68.8 68.8m503.7 434H675.1V608c0-44.3-.8-101.2-61.7-101.2c-61.7 0-71.2 48.2-71.2 98v188.9H423.7V411.9h113.8v52.2h1.6c15.8-30 54.5-61.7 112.3-61.7c120.2 0 142.3 79.1 142.3 181.9z"/>
+                        </svg>
+                    </a>
+                    
+                    <a href="https://github.com/ranjit0305" class="c2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33c.85 0 1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/>
+                        </svg>
+                    </a>
+                    
                 </div>
-                <div  class="col-6 col-sm-6 col-md-6 col-lg-6 ">
+                <div  class="col-12 col-sm-6 col-md-6 col-lg-6 ">
                     <form class="end" class="form-floating">
                         <label>Name</label>
                         <div class="input-group flex-nowrap">
